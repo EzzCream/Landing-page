@@ -42,11 +42,11 @@ html::-webkit-scrollbar-thumb {
 	background-color: #52796f;
 }
 .pad {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 .img-qs {
-	max-width: 350px;
+	max-width: 300px;
 	object-fit: cover;
 	border-radius: 10px;
 	border: 3px solid #354f52;
@@ -63,6 +63,9 @@ html::-webkit-scrollbar-thumb {
 .texto {
 	font-size: 1.5rem;
 	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: 5px solid #2f3e46;
+	border-radius: 10px;
 }
 .servicios {
 	background: #354f52;
@@ -84,4 +87,33 @@ nav {
 }
 .tarjetas {
 	flex-direction: row;
+	text-align: center;
+	flex-wrap: wrap;
+}
+.img-card {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	padding-bottom: 20px;
+}
+.card-info:hover {
+	border: 5px solid #2f3e46;
+	transform: scale(1.03);
+	transition: 0.2s;
+	cursor: pointer;
+}
+footer {
+	background-color: #52796f;
+	height: 100px;
+}
+.links {
+	width: 25px;
+}
+#link {
+	text-decoration: none;
+	color: #cad2c5;
+}
+#link:hover {
+	transition: 0.2s;
+	color: #2f3e46;
 }
